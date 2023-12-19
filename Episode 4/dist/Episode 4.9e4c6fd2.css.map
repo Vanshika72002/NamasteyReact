@@ -1,0 +1,1 @@
+{"mappings":"AAGA;;;;AAIA","sources":["index.css"],"sourcesContent":["/* @tailwind base;\r\n@tailwind components;\r\n@tailwind utilities; */\r\n.flex{\r\n    display: flex;\r\n\r\n}\r\nimg{\r\n    width: 100px;\r\n}"],"names":[],"version":3,"file":"Episode 4.9e4c6fd2.css.map","sourceRoot":"/__parcel_source_root/"}
