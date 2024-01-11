@@ -105,9 +105,9 @@ export const CommentsContainer = () => {
     <div>
     
         {/* rendering single comment */}
-        {/* <Comment data={commentsData[0]}/> */}
+        <Comment data={commentsData[0]}/>
         {/* rendering multiple comments (without replies)*/}
-        <CommentsList comments={commentsData}/>
+        {/* <CommentsList comments={commentsData}/> */}
         
     </div>
 

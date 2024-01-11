@@ -12,9 +12,7 @@ export const MainContainer = () => {
       <VideoContainer/>
       {/* <AllVideos/> */}
     </div>
-    <div className='mt-40'>
-      <LiveChats/>
-    </div>
+    
     </>
   )
 }

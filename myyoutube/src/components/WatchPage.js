@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux'
 import { closeMenu} from '../utils/appSlice';
 import { CommentsContainer } from './CommentsContainer';
 
-
+import { LiveChat } from './LiveChat';
 export const WatchPage = () => {
 
   const urlparams=new URLSearchParams(window.location);
@@ -26,7 +26,7 @@ export const WatchPage = () => {
   const dispatch=useDispatch();
   useEffect(()=>{dispatch(closeMenu());},[]);
   return (
-    <div className='grid'>
+    <div className='flex'>
       <iframe width="900" 
       height="450" 
       src={"https://www.youtube.com/embed/"+videoid}
@@ -36,7 +36,15 @@ export const WatchPage = () => {
       allowFullScreen>
 
       </iframe>
-      <CommentsContainer/>
+      <div>
+        
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <LiveChat/>
+        </div>
     </div>
       // <div className='m-32 font-extrabold text-4xl'>watch page</div>
   )
